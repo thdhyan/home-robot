@@ -4,16 +4,18 @@ channels:
   - nvidia
   - conda-forge
   - pyg
+  - aihabitat
 dependencies:
-  - python==3.9.*
+  - habitat-sim
+  - python==3.9.2
   - cmake
   - pybind11
-  - pytorch=1.13.1
-  - pytorch-cuda=11.7
+  - pytorch
+  - pytorch-cuda
   - pytorch3d
   - torchvision
   - torchaudio
-  - mkl=2024.0
+  - mkl=2025.0
   - pyg
   - pytorch-cluster
   - pytorch-scatter
