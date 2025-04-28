@@ -23,8 +23,9 @@ dependencies:
   - fzf # optional: fancy ctrl + R
   - pip
   - pip:
-    - numpy <1.24 # certain deprecated operations were used in other deps
+    - numpy==1.26.4 # certain deprecated operations were used in other deps
     - scipy
+    - imageio-ffmpeg
     - sophuspy
     - pybullet
     - trimesh<4
@@ -48,7 +49,7 @@ dependencies:
     # Command line tools
     - click
     # data tools
-    - pillow<10.0.0
+    - pillow==10.4.0
     - atomicwrites
     - loguru
     - yacs
